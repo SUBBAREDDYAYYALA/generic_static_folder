@@ -1,0 +1,48 @@
+body, h1, p, img {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #BFD7FF;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative; 
+}
+
+.indian-flag {
+    position: absolute;
+    top: 5px; 
+    right: 122px; 
+    width: 90px; 
+    height: auto;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.cricketer {
+    text-align: center;
+}
+
+.cricketer img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.cricketer-name {
+    font-weight: bold;
+    margin-top: 10px;
+}

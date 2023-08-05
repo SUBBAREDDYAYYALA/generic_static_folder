@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virat Kohli</title>
+    <link rel="stylesheet" href="static css/players.css">
+</head>
+<body>
+    <header>
+        <h1>Virat Kohli</h1>
+    </header>
+    <main>
+        <article>
+            <img src="{% static 'images/kohli.jpg' %}" alt="">
+            <h2>Early Life and Career</h2>
+            <p>
+                Virat Kohli was born on November 5, 1988, in Delhi, India. He started playing cricket at a young age and quickly rose through the ranks. Kohli represented Delhi at various age-group levels before making his first-class debut in 2006. He captained the Indian U-19 team to victory in the 2008 U-19 Cricket World Cup, showcasing his leadership abilities early on in his career.
+            </p>
+
+            <h2>International Success</h2>
+            <p>
+                Virat Kohli made his international debut for India in August 2008. Since then, he has been a key player in all three formats of the game - Test, One-Day International (ODI), and Twenty20 (T20). Known for his aggressive batting style, Kohli has scored thousands of runs across formats and is regarded as one of the best batsmen in the world.
+            </p>
+
+            <h2>Captaincy</h2>
+            <p>
+                Kohli took over the captaincy of the Indian cricket team in all formats in early 2017. Under his leadership, India has achieved several milestones, including Test series wins in Australia and a dominant home record. He is known for his passion and determination on the field, leading by example with his performances.
+            </p>
+
+            <h2>Personal Life</h2>
+            <p>
+                Off the field, Virat Kohli is known for his philanthropic work and his fitness regime. He married Bollywood actress Anushka Sharma in December 2017, and the couple is often in the limelight for their public appearances and support for social causes.
+            </p>
+
+            <h2>Achievements</h2>
+            <p>
+                Throughout his career, Kohli has received numerous awards and accolades, including multiple ICC Awards, Arjuna Award, Padma Shri, and the Rajiv Gandhi Khel Ratna - India's highest sporting honor. His contributions to cricket have earned him a special place in the hearts of cricket fans worldwide.
+            </p>
+        </article>
+        <h1><a href="{% url 'indianteam' %}">BACK</a></h1>
+    </main>
+</body>
+</html>

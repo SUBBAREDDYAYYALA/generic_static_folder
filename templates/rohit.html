@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit Sharma</title>
+    <link rel="stylesheet" href="{% static 'css/players' %}">
+</head>
+<body>
+    <header>
+        <h1>Rohit Sharma</h1>
+    </header>
+    <main>
+        <article>
+            <img src="{% static 'images/rohit.jpeg' %}" alt="">
+            <h2>Early Life and Career</h2>
+            <p>
+                Rohit Sharma was born on April 30, 1987, in Nagpur, Maharashtra, India. He made his debut for the Indian cricket team in 2007 and quickly gained recognition as one of the most talented batsmen in the game. Rohit is known for his stylish batting, elegant strokes, and ability to score big centuries in limited-overs cricket.
+            </p>
+
+            <h2>International Success</h2>
+            <p>
+                Rohit Sharma has been a vital part of the Indian cricket team in all formats. He has set numerous records, including the highest individual score in One-Day Internationals (ODIs) - an astonishing 264 runs. Rohit has played crucial innings in several high-profile matches, helping India win major tournaments like the ICC Cricket World Cup and the ICC Champions Trophy.
+            </p>
+
+            <h2>Captaincy</h2>
+            <p>
+                Rohit Sharma has also led the Indian team in various matches as a stand-in captain and has been very successful. He is known for his calm and composed leadership on the field, which has earned him praise from fans and experts alike.
+            </p>
+
+            <h2>Personal Life</h2>
+            <p>
+                Off the field, Rohit Sharma is a private person. He is married to Ritika Sajdeh, and the couple has a daughter named Samaira.
+            </p>
+
+            <h2>Achievements</h2>
+            <p>
+                Rohit Sharma has received several awards, including the Arjuna Award and the Rajiv Gandhi Khel Ratna - India's highest sporting honor. His contributions to Indian cricket have made him one of the most beloved and respected cricketers in the country.
+            </p>
+        </article>
+        <h1><a href="{% url 'indianteam' %}">BACK</a></h1>
+    </main>
+</body>
+</html>
